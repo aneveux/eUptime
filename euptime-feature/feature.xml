@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.github.aneveux.euptime.feature"
+      label="eUptime"
+      version="1.0.0.qualifier"
+      provider-name="Antoine Neveux">
+
+   <description url="http://aneveux.github.com/eUptime">
+      eUptime Eclipse plugin allows to display as a widget the running Eclipse's uptime, using colors to indicate if it's a long running one or not.
+   </description>
+
+   <copyright url="http://www.wtfpl.net/txt/copying/">
+eUptime - an Eclipse widget allowing to indicate its uptime using some fancy colors.
+Definitively not the most useful thing on earth, but at least I wanted it.
+
+---
+LICENSE:
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar sam@hocevar.net
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+-- http://www.wtfpl.net/txt/copying/
+   </copyright>
+
+   <license url="http://opensource.org/licenses/bsd-license.php">
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar sam@hocevar.net
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+   </license>
+
+   <plugin
+         id="com.github.aneveux.euptime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

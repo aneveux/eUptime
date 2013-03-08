@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature
+		url="features/com.github.aneveux.euptime.features_1.0.0.qualifier.jar"
+		id="com.github.aneveux.euptime.feature" version="1.0.0.qualifier">
+		<category name="eUptime" />
+	</feature>
+	<category-def name="eUptime" label="eUptime">
+		<description>
+			eUptime is an Eclipse widget allowing to display the current instance's
+			uptime.
+		</description>
+	</category-def>
+</site>
