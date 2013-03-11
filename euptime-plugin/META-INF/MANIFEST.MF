@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: eUptime
 Bundle-SymbolicName: com.github.aneveux.euptime;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.1.0.qualifier
 Bundle-Activator: com.github.aneveux.euptime.Activator
 Bundle-Vendor: Antoine Neveux
 Require-Bundle: org.eclipse.ui,
