@@ -40,24 +40,18 @@ public class Activator extends AbstractUIPlugin {
 	private static Activator plugin;
 
 	/**
-	 * Eclipse's starting time (as a timestamp)
-	 */
-	private final long startTime;
-
-	/**
 	 * Returns Eclipse's starting time (as a timestamp)
 	 * 
 	 * @return {@link #startTime}
 	 */
 	public long getStartTime() {
-		return startTime;
+		return Long.parseLong(System.getProperty("eclipse.startTime"));
 	}
 
 	/**
 	 * The constructor
 	 */
 	public Activator() {
-		startTime = System.currentTimeMillis();
 	}
 
 	/*
